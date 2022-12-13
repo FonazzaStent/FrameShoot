@@ -8,7 +8,7 @@ Instructions:
 - place your webcam in front or over the scene or drawing you want to animate
 - click on "Shoot frame" to take the first frame
 - the frame will automatically be overlayed in transparency as onion skin.
-- click on "Toggle Onion Skin" to toggle onion skin on and off
+- click on "Onion Skin" to toggle onion skin on and off
 - find all the images in the "frames" folder
 - import the frames in a video or photo editing program to create a video or a GIF
 
