@@ -131,4 +131,4 @@ def classes():
 # Create a window and pass it to the Application object
 
 classes()
-App(tkinter.Tk(), "Frame Motion")
+App(tkinter.Tk(), "FrameShoot")
