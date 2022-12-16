@@ -1,4 +1,4 @@
-"""FrameShoot 1.0.o - An very simple frame-by-frame stop motion program
+"""FrameShoot 1.0.0 - A very simple frame-by-frame stop motion program
 to create animations with your webcam.
 Copyright (C) 2022  Fonazza-Stent
 
