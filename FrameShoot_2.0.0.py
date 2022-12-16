@@ -182,6 +182,7 @@ def display():
         if lastframe=="" or onion==0:
             root.delay=100
             ret,frame= cap.read()
+            frame = cv2.flip(frame,1)
             frame1=cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             img=PIL.Image.fromarray(frame1)
             newsize=(640,480)
@@ -193,6 +194,7 @@ def display():
         else:
             root.delay=100
             ret,frame= cap.read()
+            frame = cv2.flip(frame,1)
             frame1=cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             foreground=cv2.imread(lastframe,cv2.IMREAD_COLOR)
             blend=cv2.addWeighted(frame1,1,foreground,0.5,0)
