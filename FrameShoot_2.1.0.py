@@ -65,6 +65,9 @@ def init():
     if not os.path.exists(firstframepath):
         firstframefile=open(firstframepath,'w')
         firstframefile.close()
+        firstframecheck=False
+    else:
+        firstframecheck=True
     firstframefile=open(firstframepath,'r')
     firstframe=firstframefile.read()
     firstframefile.close()
@@ -76,7 +79,6 @@ def init():
     quitcheck=0
     fps=15
     flip=False
-    firstframecheck=False
     onionskin="last"
     
 #Create app window
